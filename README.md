@@ -1,4 +1,4 @@
-face detection & face recognition
+﻿face detection and recognition
 ==
 face detection利用了opencv完成\
 face recognition利用了CNN模型完成
