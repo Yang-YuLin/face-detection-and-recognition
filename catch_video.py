@@ -16,7 +16,8 @@ classifier=cv2.CascadeClassifier("D:\\jiance\\opencv\\build\\etc\\haarcascades\\
 color=(0,255,0)
 
 num=1 
-catch_pic_num=1300 
+catch_pic_num=1300
+ 
 while(cap.isOpened()):
     ok,frame=cap.read()#读取一帧视频
     if not ok:#检验第一帧是否为空
